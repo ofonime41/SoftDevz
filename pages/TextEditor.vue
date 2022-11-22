@@ -1,7 +1,7 @@
 <template>
          <div class="container-scroller">
         <!-- Navbar -->
-    <NavBar/>
+     <Navbar/>
     <!-- partial -->
     <div class="container-fluid page-body-wrapper">
          <!-- THEME SETTING -->
@@ -48,40 +48,9 @@
               </div>
             </div>
           </div>
-          <div class="row grid-margin">
-            <div class="col-lg-12">
-              <div class="card">
-                <div class="card-body">
-                  <h4 class="card-title">Tinymce Editor</h4>
-                  <textarea id='tinyMceExample'>
-                    Edit your content here...
-                  </textarea>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="row grid-margin">
-            <div class="col-lg-12">
-              <div class="card">
-                <div class="card-body">
-                  <h4 class="card-title">Quill Editor</h4>
-                  <div id="quillExample1" class="quill-container">
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-lg-12">
-              <div class="card">
-                <div class="card-body">
-                  <h4 class="card-title">Simplemde Editor</h4>
-                  <textarea id="simpleMde">
-                  </textarea>
-                </div>
-              </div>
-            </div>
-          </div>
+
+         
+          
         </div>
         <!-- content-wrapper ends -->
         <footer/>

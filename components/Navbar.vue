@@ -1,4 +1,5 @@
 <template>
+   <div>
     <nav class="navbar col-lg-12 col-12 p-0 fixed-top d-flex flex-row default-layout-navbar">
       <div class="text-center navbar-brand-wrapper d-flex align-items-center justify-content-center">
         <a class="navbar-brand brand-logo" href="index-2.html"><img src="images/logo.svg" alt="logo"/></a>
@@ -170,21 +171,22 @@
                     Settings
               </a>
               <div class="dropdown-divider"></div>
-              <a class="dropdown-item">
+              <router-link to="" class="dropdown-item">
                 <i class="fas fa-power-off text-primary"></i>
                 Logout
-              </a>
+              </router-link>
             </div>
           </li>
-          <li class="nav-item nav-settings d-none d-lg-block">
+          <!-- <li class="nav-item nav-settings d-none d-lg-block">
             <a class="nav-link" href="#">
               <i class="fas fa-ellipsis-h"></i>
             </a>
-          </li>
+          </li> -->
         </ul>
         <button class="navbar-toggler navbar-toggler-right d-lg-none align-self-center" type="button" data-toggle="offcanvas">
           <span class="fas fa-bars"></span>
         </button>
       </div>
     </nav>
+   </div>
 </template>
