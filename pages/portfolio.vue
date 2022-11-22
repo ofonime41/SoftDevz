@@ -1,7 +1,7 @@
 <template>
      <div class="container-scroller">
         <!-- Navbar -->
-    <NavBar/>
+    <Navbar/>
     <!-- partial -->
     <div class="container-fluid page-body-wrapper">
          <!-- THEME SETTING -->

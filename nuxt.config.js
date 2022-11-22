@@ -27,7 +27,7 @@ export default {
       {src:'vendors/tinymce/tinymce.min.js'},
       {src:'vendors/tinymce/themes/modern/theme.js'},
       {src:'vendors/summernote/dist/summernote-bs4.min.js'},
-      {src:'js/editorDemo.js'},
+      {src:'static/js/editorDemo.js'},
       // 
 
       {src:'js/off-canvas.js'},
