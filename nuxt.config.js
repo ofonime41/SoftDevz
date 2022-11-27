@@ -18,8 +18,8 @@ export default {
       {src:'vendors/js/vendor.bundle.base.js'},
       {src:'vendors/js/vendor.bundle.addons.js'},
       // CODEditor
-       {src:'vendors/ace-builds/src-min/ace.js'},
-      {src:'js/codeEditor.js'},
+      //  {src:'vendors/ace-builds/src-min/ace.js'},
+      // {src:'js/codeEditor.js'},
 
       // 
 
@@ -35,9 +35,7 @@ export default {
       {src:'js/misc.js'},
       {src:'js/settings.js'},
       {src:'js/todolist.js'},
-      {src:'js/dashboard.js'},
-      // {src:'https://use.fontawesome.com/3f430fba04.js'},
-
+      
     ],
   },
 
@@ -46,6 +44,10 @@ export default {
        '~/assets/css/style.css',  
        '~/static/vendors/css/vendor.bundle.base.css',
        '~/static/vendors/css/vendor.bundle.addons.css',
+      //  LANDING PAGE
+       '~/static/landing/css/style.css',
+       '~/static/landing/css/bootstrap.min.css',
+
 
       //  TEXT EDITOR
       '~/static/vendors/summernote/dist/summernote-bs4.css',

@@ -334,4 +334,18 @@ var editor = CodeMirror.fromTextArea(myTextarea, {
 </template>
 
 <script>
+export default {
+  mounted(){
+    let editor = document.createElement('script');
+    editor.setAttribute("src", "/js/codeEditor.js");
+    editor.setAttribute("defer", "true");
+    document.body.appendChild(editor);
+
+    let acejs = document.createElement('script');
+    acejs.setAttribute("src", "/vendors/ace-builds/src-min/ace.js");
+    acejs.setAttribute("defer", "true");
+    document.body.appendChild(acejs);
+  },
+ 
+}
 </script>

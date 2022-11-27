@@ -28,7 +28,7 @@
             <div class="col-lg-12">
               <div class="card">
                 <div class="card-body">
-                  <h4 class="card-title">summernote Editor</h4>
+                  <h4 class="card-title">Text Editor</h4>
                   <div id="summernoteExample">
                     <h4>The standard Lorem Ipsum passage, used since the 1500s</h4>
                     <img src="/images/carousel/banner_1.jpg" class="ml-2 mb-2 w-25" alt="img">
@@ -64,3 +64,31 @@
 <style>
 
 </style>
+
+<script>
+export default {
+  mounted(){
+    let texteditor = document.createElement('script');
+    texteditor .setAttribute("src", "/js/editorDemo.js");
+    texteditor .setAttribute("defer", "true");
+    document.body.appendChild(texteditor);
+
+  //   let tinymce = document.createElement('script');
+  //   tinymce.setAttribute("src", "/vendors/tinymce/tinymce.min.js");
+  //   tinymce.setAttribute("defer", "true");
+  //   document.body.appendChild(tinymce);
+
+  //   let tinymceTheme = document.createElement('script');
+  //  tinymceTheme.setAttribute("src", "/vendors/tinymce/themes/modern/theme.js");
+  //  tinymceTheme.setAttribute("defer", "true");
+  //   document.body.appendChild(tinymceTheme);
+
+    let summernote = document.createElement('script');
+  summernote.setAttribute("src", "/vendors/summernote/dist/summernote-bs4.min.js");
+  summernote.setAttribute("defer", "true");
+    document.body.appendChild(summernote);
+  },
+ 
+}
+
+</script>
