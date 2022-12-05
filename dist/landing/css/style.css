@@ -228,7 +228,7 @@ menue style
 
 
 .navbar.navbar-expand-lg{
-  background: none;
+  background:linear-gradient(271deg, #5d278df1 0%, #01084cea 100%);
   transition: 0.3s all;
   z-index: 999999999999999999;
   padding-top: 20px;

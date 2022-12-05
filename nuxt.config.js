@@ -9,7 +9,7 @@ export default {
       { name: 'format-detection', content: 'telephone=no' }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+      { rel: 'icon', type: 'image/x-icon', href: '/imgLogo.png' },
 
       { rel:'stylesheet', href:'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.css'},   
     ],
@@ -35,6 +35,14 @@ export default {
       {src:'js/misc.js'},
       {src:'js/settings.js'},
       {src:'js/todolist.js'},
+
+      // LANDING PAGE
+      // {src:'landing/js/bootstrap.min.js'},
+      // {src:'landing/js/jquery-1.12.4.min.js'},
+      // {src:'landing/js/vendor/plugin.js'},
+      // {src:'landing/js/vendor/plugin.js'},
+      // {src:'landing/js/main.js'},
+
       
     ],
   },
@@ -92,14 +100,18 @@ export default {
   // PWA module configuration: https://go.nuxtjs.dev/pwa
   pwa: {
     manifest: {
-      lang: 'en'
-    }
+      lang: "en",
+    },
+    icon: {
+      fileName: "imgLogo.png",
+      sizes: [64, 120, 144, 152, 192, 384, 512],
+    },
   },
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
-    
+    babel: {
+      compact: true,
+    },
   },
-
- 
 }

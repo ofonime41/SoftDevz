@@ -646,5 +646,28 @@ export default {
     document.body.appendChild(dashboard);
   },
   name: 'IndexPage'
-}
+};
+
+// BLOGGER API 
+
+// var axios = require('axios');
+
+// var config = {
+//   method: 'get',
+//   url: 'https://www.googleapis.com/blogger/v3/blogs/4672001712527949154?key=AIzaSyADwPztCGFUdWfuMo-sPfjUSoWmjX33YpM',
+//   headers: { 
+//     'key': 'AIzaSyADwPztCGFUdWfuMo-sPfjUSoWmjX33YpM'
+//   }
+// };
+
+// axios(config)
+// .then(function (response) {
+//   console.log(JSON.stringify(response.data));
+// })
+// .catch(function (error) {
+//   console.log(error);
+// });
+
+
+
 </script>
