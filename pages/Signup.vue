@@ -83,3 +83,33 @@
   </div>
     
 </template>
+
+<script>
+// import pouchdb from 'pouchdb'
+export default {
+  data(){
+    return{
+      userName:'',
+      email:'',
+      password:''
+    }
+
+  },
+
+  methods: {
+    register(){
+      var PouchDB = require('pouchdb').default;
+      const db = new PouchDB('softdev');
+
+
+
+    }
+  },
+
+}
+
+</script>
+
+<style>
+</style>
+

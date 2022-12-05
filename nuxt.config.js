@@ -9,7 +9,7 @@ export default {
       { name: 'format-detection', content: 'telephone=no' }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+      { rel: 'icon', type: 'image/x-icon', href: '/imgLogo.png' },
 
       { rel:'stylesheet', href:'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.css'},   
     ],
@@ -18,8 +18,8 @@ export default {
       {src:'vendors/js/vendor.bundle.base.js'},
       {src:'vendors/js/vendor.bundle.addons.js'},
       // CODEditor
-       {src:'vendors/ace-builds/src-min/ace.js'},
-      {src:'js/codeEditor.js'},
+      //  {src:'vendors/ace-builds/src-min/ace.js'},
+      // {src:'js/codeEditor.js'},
 
       // 
 
@@ -35,9 +35,15 @@ export default {
       {src:'js/misc.js'},
       {src:'js/settings.js'},
       {src:'js/todolist.js'},
-      {src:'js/dashboard.js'},
-      // {src:'https://use.fontawesome.com/3f430fba04.js'},
 
+      // LANDING PAGE
+      // {src:'landing/js/bootstrap.min.js'},
+      // {src:'landing/js/jquery-1.12.4.min.js'},
+      // {src:'landing/js/vendor/plugin.js'},
+      // {src:'landing/js/vendor/plugin.js'},
+      // {src:'landing/js/main.js'},
+
+      
     ],
   },
 
@@ -46,6 +52,10 @@ export default {
        '~/assets/css/style.css',  
        '~/static/vendors/css/vendor.bundle.base.css',
        '~/static/vendors/css/vendor.bundle.addons.css',
+      //  LANDING PAGE
+       '~/static/landing/css/style.css',
+       '~/static/landing/css/bootstrap.min.css',
+
 
       //  TEXT EDITOR
       '~/static/vendors/summernote/dist/summernote-bs4.css',
@@ -90,14 +100,18 @@ export default {
   // PWA module configuration: https://go.nuxtjs.dev/pwa
   pwa: {
     manifest: {
-      lang: 'en'
-    }
+      lang: "en",
+    },
+    icon: {
+      fileName: "imgLogo.png",
+      sizes: [64, 120, 144, 152, 192, 384, 512],
+    },
   },
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
-    
+    babel: {
+      compact: true,
+    },
   },
-
- 
 }
