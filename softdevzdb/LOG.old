@@ -1,0 +1,13 @@
+2022/12/10-23:18:03.498 205c Recovering log #12
+2022/12/10-23:18:03.506 205c Level-0 table #14: started
+2022/12/10-23:18:03.546 205c Level-0 table #14: 599 bytes OK
+2022/12/10-23:18:03.642 205c Delete type=0 #12
+2022/12/10-23:18:03.642 205c Delete type=3 #10
+2022/12/10-23:18:03.674 a40 Compacting 4@0 + 0@1 files
+2022/12/10-23:18:03.906 a40 Generated table #16@0: 5 keys, 539 bytes
+2022/12/10-23:18:03.906 a40 Compacted 4@0 + 0@1 files => 539 bytes
+2022/12/10-23:18:03.970 a40 compacted to: files[ 0 1 0 0 0 0 0 ]
+2022/12/10-23:18:03.970 a40 Delete type=2 #5
+2022/12/10-23:18:03.970 a40 Delete type=2 #8
+2022/12/10-23:18:03.970 a40 Delete type=2 #11
+2022/12/10-23:18:03.970 a40 Delete type=2 #14

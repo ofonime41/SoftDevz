@@ -19,7 +19,7 @@
         </li>
         <li class="nav-item">
           <router-link to=""></router-link>
-          <router-link to="/landing" class="nav-link">
+          <router-link to="/" class="nav-link">
             <i class="fa fa-home menu-icon"></i>
             <span class="menu-title">Landing page</span>
           </router-link>
